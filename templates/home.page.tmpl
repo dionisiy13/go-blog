@@ -1,0 +1,6 @@
+{{template "base" .}}
+
+{{define "content"}}
+    <h1>I am home page from Go lang! Bitch {{ .Data.var1 }}</h1>
+    <h1>{{index .Data "var2" }}</h1>
+{{end}}
